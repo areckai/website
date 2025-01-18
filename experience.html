@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kyle Hunteman - Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <script>
+        function toggleDescription(id) {
+            const desc = document.getElementById(id);
+            desc.style.display = desc.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</head>
+<body>
+    <h1>My Experience</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <h2 onclick="toggleDescription('ethicsDesc')">Ethics (Ethics, Ethics of AI, Meta Ethics)</h2>
+        <div id="ethicsDesc" style="display:none;">
+            <p>Understanding of multiple frameworks, as well as how people navigate such problems and situations in Japan, not just the Western version of arguments.</p>
+        </div>
+
+        <h2 onclick="toggleDescription('logicDesc')">Logic (and Advanced Logic)</h2>
+        <div id="logicDesc" style="display:none;">
+            <p>Can understand fallacies and provide new information or ideas in an effective, timely manner.</p>
+        </div>
+
+        <h2 onclick="toggleDescription('analyticDesc')">Analytic Philosophy</h2>
+        <div id="analyticDesc" style="display:none;">
+            <p>Experience breaking down perspectives and finding solutions in a calm, productive, systematic way that helps everyone involved.</p>
+        </div>
+
+        <h2 onclick="toggleDescription('anthropologyDesc')">Anthropology (of Religion, Gender, Biology, Language and Culture)</h2>
+        <div id="anthropologyDesc" style="display:none;">
+            <p>Experience interviewing and understanding diverse perspectives with no judgment and full attentiveness to gather the best ideas and consensus of groups.</p>
+        </div>
+
+        <h2 onclick="toggleDescription('japanTripDesc')">Japan Trip (Studied Abroad at Waseda University for 11 months)</h2>
+        <div id="japanTripDesc" style="display:none;">
+            <p>Spent time assimilating to culture, speaking Japanese, taking classes at Waseda, and balancing my own cultural biases with adopting the Japanese way of life and thinking.</p>
+        </div>
+
+        <h2 onclick="toggleDescription('internshipDesc')">International Programs Office Internship</h2>
+        <div id="internshipDesc" style="display:none;">
+            <p>Helped international students move in and acclimate to Fort Lewis College, guiding them through studying abroad with paperwork and counseling.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Kyle Hunteman</p>
+        <p>Contact</p>
+        <ul>
+            <li><a href="mailto:kylehunteman2@gmail.com">kylehunteman2@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/kyle-hunteman-540796308" target="_blank">LinkedIn</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
