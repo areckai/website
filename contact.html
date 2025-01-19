@@ -1,16 +1,17 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me - Kyle Hunteman</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 </head>
 <body>
     <h1>Contact Me</h1>
     <p>If you have any questions or would like to get in touch, feel free to reach out!</p>
 
-    <form id="contactForm" action="send_email.php" method="post">
+    <form id="contactForm">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
 
@@ -20,7 +21,7 @@
         <label for="message">Message:</label><br>
         <textarea id="message" name="message" required></textarea><br><br>
 
-        <input type="submit" value="Submit">
+        <button type="submit">Submit</button>
     </form>
 
     <footer>
